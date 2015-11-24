@@ -1,0 +1,19 @@
+#logo {
+  text-align: center;
+  margin-top: 150px;
+}
+
+#search-box {
+  width: 663px;
+  height: 35px;
+  border: 1px solid darkgrey;
+  margin: 0 auto;
+  text-align: -webkit-center;
+}
+
+#search-box p {
+  margin-bottom: 5px;
+  text-align: left;
+  font-family: arial;
+  color: lightgrey;
+}
