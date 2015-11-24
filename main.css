@@ -1,19 +1,46 @@
+#container {
+  position: relative;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  margin-right: 20px;
+  padding: 0;
+  text-align: right;
+}
+
+#navbar li {
+  display: inline-block;
+  width: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #949494;
+  font-size: 14px;
+}
+
+
 #logo {
   text-align: center;
   margin-top: 150px;
 }
 
 #search-box {
-  width: 663px;
-  height: 35px;
-  border: 1px solid darkgrey;
-  margin: 0 auto;
-  text-align: -webkit-center;
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
 }
 
-#search-box p {
-  margin-bottom: 5px;
-  text-align: left;
+input[type=search] {
+  -webkit-appearance: none;
+  width: 663px;
+  height: 35px;
   font-family: arial;
   color: lightgrey;
+  font-size: 18px;
+
 }
