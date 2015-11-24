@@ -1,11 +1,23 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
 #container {
+  min-height:100%;
   position: relative;
 }
 
 #navbar ul {
   list-style-type: none;
   margin: 0;
-  margin-right: 20px;
+  margin-right: 50px;
+  margin-top: 40px;
   padding: 0;
   text-align: right;
 }
@@ -19,7 +31,7 @@
 
 #navbar a {
   text-decoration: none;
-  color: #949494;
+  color: #666;
   font-size: 14px;
 }
 
@@ -37,10 +49,68 @@
 
 input[type=search] {
   -webkit-appearance: none;
-  width: 663px;
+  width: 487px;
   height: 35px;
   font-family: arial;
   color: lightgrey;
   font-size: 18px;
+  background-image: url('images/mic.png');
+  background-repeat: no-repeat;
+  background-position: right; 
+}
 
+#search-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-buttons {
+  border: none;
+  background-color: #F6F6F6;
+  padding: 10px;
+  margin: 2px;
+  font-size: 14px;
+  color: #666;
+  font-family: arial;
+}
+
+#thai-lang-op {
+  text-align: center;
+  font-family: arial;
+  font-size: small;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #F2F2F2;
+  height: 50px;
+  width: 100%;
+}
+
+#footer ul {
+  list-style-type: none;
+}
+
+#footer li {
+  display: inline-block;
+  padding-left: 10px;  
+  padding-right: 10px;
+  
+}
+
+#footer a {
+  text-decoration: none;
+  color: #666;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+#left-footer {
+  float: left;
+}
+
+#right-footer {
+  float: right;
+  margin-right: 30px;
 }
